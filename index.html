@@ -133,7 +133,7 @@
                     <li>On-brand visuals & messaging</li>
                     <li>Monthly report + next steps</li>
                 </ul>
-                <img class="media" src="/images/mid1.jpg" alt="Busy business owner getting time back" />
+                <img class="media" src="images/mid1.jpg" alt="Busy business owner getting time back" />
             </aside>
         </div>
     </section>
@@ -161,7 +161,7 @@
                     <li>Starter content calendar</li>
                     <li>Quick win campaign ideas</li>
                 </ul>
-                <img class="media" src="/images/hero-background-1920x900.webp" alt="Before and after social media profile" />
+                <img class="media" src="images/hero-background-1920x900.webp" alt="Before and after social media profile" />
             </aside>
         </div>
     </section>
@@ -189,16 +189,15 @@
                     <li>Refine hooks, CTAs & offers</li>
                     <li>Monthly clarity reports + next moves</li>
                 </ul>
-                <img class="media" src="/images/hero4.jpg" alt="Social media analytics increasing" />
+                <img class="media" src="images/hero4.jpg" alt="Social media analytics increasing" />
             </aside>
         </div>
     </section>
 
     <!-- Free Audit Anchor -->
-    <section id="free-audit" class="wrapper" style="text-align:center; background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%); padding: 80px 20px; margin-top: 60px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
-        <p style="font-size: 1.25rem; max-width: 600px; margin: 0 auto 40px; color: #555;">Tell us where you are now (time-poor, starting from zero, or stuck). We'll show you what to fix — or do it for you.</p>
-        
-        <div x-data="contactForm()" x-init="init()" data-fullwidth="true" data-dev="false" class="w-full max-w-[600px] mx-auto mt-8">
+    <section id="free-audit" class="secondary-cta" style="text-align:center; padding: 80px 20px;">
+        <div class="container">
+            <div x-data="contactForm()" x-init="init()" data-fullwidth="true" data-dev="false" class="w-full max-w-[600px] mx-auto">
             <div x-show="toast.show" x-transition.opacity.duration.200ms aria-live="polite" class="fixed right-4 bottom-4 z-50">
                 <div class="rounded-xl bg-slate-900/90 text-white px-4 py-3 shadow-lg backdrop-blur-md flex items-center gap-2">
                     <svg class="w-5 h-5 text-emerald-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -257,19 +256,10 @@
 
                 <button type="submit" class="w-full rounded-lg bg-[#4C3B4D] text-white font-semibold py-3 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#4C3B4D] transition duration-180 ease-out disabled:opacity-50 disabled:cursor-not-allowed" :disabled="!canSubmit">Send →</button>
             </form>
-        </div>
-    </section>
-
-    <!-- Secondary CTA Section -->
-    <section class="secondary-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Ready to Transform Your Social Media Presence?</h2>
-                <p class="cta-description">Don't let another day pass being invisible online. Let's build your brand together.</p>
-                <button class="cta-button">Start Your Transformation</button>
             </div>
         </div>
     </section>
+
 
     <!-- Footer -->
     <footer class="footer">
