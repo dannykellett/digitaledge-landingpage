@@ -118,7 +118,7 @@ body {
                       rgba(137, 182, 165, 0.7) 30%,
                       rgba(137, 182, 165, 0.3) 60%,
                       transparent 100%), 
-                      url('/images/hero-background-1920x900.webp');
+                      url('images/hero-background-1920x900.webp');
     background-size: cover;
     background-position: center top;
 }
@@ -516,7 +516,7 @@ body {
                           rgba(137, 182, 165, 0.7) 20%,
                           rgba(137, 182, 165, 0.3) 40%,
                           transparent 70%), 
-                          url('/images/hero-background1200x800.webp');
+                          url('images/hero-background1200x800.webp');
     }
     
     .hero-wrapper {
